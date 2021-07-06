@@ -37,3 +37,38 @@
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+.home {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.order-food {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 60px;
+    color: white;
+}
+
+.half-width {
+    width: 50%;
+    padding: 3%;
+}
+
+.half-width img {
+    width: 100%;
+    padding: 3px;
+}
+
+p {
+    font-size: 12px;
+}
