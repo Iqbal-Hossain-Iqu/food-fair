@@ -38,6 +38,11 @@
     box-shadow: 0 0 10px white;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 .flex-container {
     display: flex;
     margin-bottom: 150px;
@@ -65,8 +70,9 @@ h1 {
 }
 
 .half-width img {
-    width: 80%;
-    padding-right: 3px;
+    width: 100%;
+    padding-right: 10px;
+    margin-left: 3%;
 }
 
 p {
@@ -79,7 +85,7 @@ p {
 
 }
 
-.recipies {
+.recipes {
     text-align: center;
     margin: 0 30%;
 }
@@ -106,9 +112,6 @@ p {
     box-shadow: 20px 20px 50px gray;
 }
 
-.table {
-    width: 100%;
-}
 
 .engagements {
     border-radius: 20px;
