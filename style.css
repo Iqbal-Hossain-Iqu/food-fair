@@ -112,6 +112,41 @@ p {
     box-shadow: 20px 20px 50px gray;
 }
 
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+}
+
+#portfolio h1 {
+    margin: 60px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 360px;
+    height: 640px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gallery img:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.heading {
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1, 1.3);
+}
 
 .engagements {
     border-radius: 20px;
@@ -121,7 +156,7 @@ p {
     margin: 5%;
 }
 
-.middle {
+.center {
     text-align: center;
     margin: 0 30%;
 }
@@ -139,10 +174,4 @@ p {
 
 .grey {
     color: gray;
-}
-
-
-
-.right {
-    text-align: center;
 }
